@@ -1,5 +1,5 @@
 {% set name = "pyTCR" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 {% set python_min = "3.9" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytcr-{{ version }}.tar.gz
-  sha256: 0e9530344b7e2d6b59c4e6583c72d06f73d90bbb72e906124302a97f153189bf
+  sha256: 7bd667acdca79a4893529f4ced20272ea8ca7635d17513077db8f0193b990eed
 
 build:
   noarch: python
@@ -35,7 +35,7 @@ requirements:
     - shapely
     - xarray
     - beautifulsoup4
-  
+
 test:
   imports:
     - tcr
