@@ -1,5 +1,5 @@
 {% set name = "pyTCR" %}
-{% set version = "1.2.2" %}
+{% set version = "1.2.3" %}
 {% set python_min = "3.9" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytcr-{{ version }}.tar.gz
-  sha256: 7bd667acdca79a4893529f4ced20272ea8ca7635d17513077db8f0193b990eed
+  sha256: 183e965eb8d32af563dd59abc69355594e4e94b2335e103824320de048a64b55
 
 build:
   noarch: python
